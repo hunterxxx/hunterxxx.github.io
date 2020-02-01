@@ -1,0 +1,17 @@
+<div class="content">
+    <form class="app" action="/action_page.php">
+        Track </br>
+        <input type="text" name="FirstName" value="Z" size="51"><br />
+        <label for="letter">Letter</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="speed">Speed 6</label><br />
+        <input type="text" name="LastName" value="w" size="24">
+        <input type="range" min="0" max="10" step="1" value="6" oninput="showVal(this.value)"
+            onchange="showVal(this.value)"><br />
+        <svg width="100%" height="24">
+            <line x1="4" y1="0" x2="300" y2="0" stroke="#212121" stroke-width="12" stroke-dasharray="1 28"></line>
+        </svg>
+        <button type="submit" value="GO!" style="width:12em">GO!</button>
+        <button type="submit" value="GO!" style="width:12em">STOP</button>
+    </form>
+</div>
